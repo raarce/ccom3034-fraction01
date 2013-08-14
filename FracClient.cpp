@@ -12,11 +12,21 @@ int main() {
   Fraction f2(1,5);
   Fraction f3;
 
-  cout << "Fraction f0 is: ";  f0.display(cout); cout << endl;
-  cout << "Fraction f1 is: ";  f1.display(cout); cout << endl;
-  cout << "Fraction f2 is: ";  f2.display(cout); cout << endl;
+  cout << "Fraction f0 is: ";  
+  f0.display(cout); 
+  cout << endl;
+
+  cout << "Fraction f1 is: ";  
+  f1.display(cout); 
+  cout << endl;
+  
+  cout << "Fraction f2 is: ";  
+  f2.display(cout); 
+  cout << endl;
  
   f3 = f1.sum(f2);
   
-  cout << "Fraction f3 is: ";  f3.display(cout); cout << endl;
+  cout << "Fraction f3 is: ";  
+  f3.display(cout); 
+  cout << endl;
 }
