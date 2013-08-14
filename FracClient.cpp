@@ -16,7 +16,7 @@ int main() {
   cout << "Fraction f1 is: ";  f1.display(cout); cout << endl;
   cout << "Fraction f2 is: ";  f2.display(cout); cout << endl;
  
-  f3 = f1 + f2;
+  f3 = f1.sum(f2);
   
   cout << "Fraction f3 is: ";  f3.display(cout); cout << endl;
 }

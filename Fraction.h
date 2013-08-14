@@ -31,7 +31,7 @@ public:
 
   void display(ostream&);
 
-  Fraction operator+(const Fraction&) const;
+  Fraction sum(const Fraction&) const;
 
 };
 
