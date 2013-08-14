@@ -1,5 +1,5 @@
 /*
-    Fraction ADT
+    Fraction ADT - R. Arce-Nazario
 */
 
 #include <iostream>
