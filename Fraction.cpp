@@ -1,3 +1,7 @@
+/*
+    Implementation for the Fraction class
+*/
+
 #include <iostream>
 #include "Fraction.h"
 

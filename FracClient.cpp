@@ -1,3 +1,7 @@
+/*
+    Client to test the functions of the Fraction class.
+*/
+
 #include "Fraction.h"
 #include <iostream>
 using namespace std;

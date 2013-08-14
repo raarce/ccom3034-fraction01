@@ -1,6 +1,14 @@
+/*
+    Fraction ADT
+*/
+
 #include <iostream>
 
 using namespace std;
+
+
+// These preprocessor directives avoid confusion when linking
+// the program if two or more source code files include this file.
 
 #ifndef RECT_H
 #define RECT_H
@@ -9,6 +17,7 @@ class Fraction {
 private:
   int numer, denom;
 public:
+
   // constructor
   Fraction(int = 0, int = 1);
  
