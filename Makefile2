@@ -1,0 +1,9 @@
+CC=g++
+DEPS = Fraction.h
+OBJ = Fraction.o FracClient.o 
+
+FracClient: $(OBJ)
+	$(CC) -o $@ $^ 
+
+%.o: %.cpp $(DEPS)
+	$(CC) -c  $< 
